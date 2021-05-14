@@ -1,2 +1,2 @@
 # Beginner-Friendly-Python-Projects
-In this Repo i will be sharing some beginner friendly python projects.
+In this Repository I will be sharing some Beginner friendly Python Projects.
