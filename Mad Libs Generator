@@ -1,0 +1,37 @@
+#madlibs Level one 
+print("Welcome to Mad Libs Level 1")
+print("To continue please")
+noun1 = input("Enter a noun: ")
+noun2 = input("Enter a noun: ")
+noun3 = input("Enter a noun: ")
+ 
+print("Rumble in the " + noun1)
+print("Worlds greatest " + noun2 + " Game.")
+print("I'm as " + noun3 + " As hell, and I'm not going to take this anymore!")
+
+noun4 = input("Enter an animal: ")
+noun5 = input("Enter another animal: ")
+noun6 = input("Enter an object: ")
+ 
+print("The " + noun4 + " and the " + noun5 + " went to see in a beautiful pea green " + noun6)
+
+#madlibs level two
+print("Welcome to Mad Libs Level 2")
+
+a = """
+I went to this girl’s blank the week after she beat the
+shit out of my blank. While blank was getting trashed,
+I went blank putting tuna blank all the curtain rods and so like weeks went by 
+and they couldn’t figure out why the house smelled like blank death. 
+They blank me through this video where these guys at the party were singing Beyoncé while I was in the blank with a can of tuna.
+"""
+print(a)
+print("Now the paragraph displayed above has some words 'blank', whatever you choose can replace blank and make the paragraph more funny.")
+
+x = input("enter the word you want to replace with blank")
+
+y = a.replace("blank", x)
+
+print(y)
+
+print("Hope you Enjoyed!")
