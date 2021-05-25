@@ -1,0 +1,24 @@
+print("Number Guessing Game")
+player_name = input("Hello, What's your name?")
+print("Hey  " + player_name)
+print("Please enter the range")
+a = int(input("Enter the Smallest Number: "))
+b = int(input("Enter the Largest Number: "))
+
+import random
+number = random.randrange(a,b)
+
+
+guess = int(input("Enter your Guess"))
+
+
+while guess != number:
+
+    if guess == number:
+        print("congratulations! you won!")
+        break
+    else:
+        print("nope, sorry. try again!")
+        break
+
+print("The random number generated was " + str(number))
