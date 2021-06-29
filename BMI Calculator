@@ -1,0 +1,20 @@
+#your code goes here
+#print ("Hey,Tracking your BMI is a useful way of checking if you're maintaining a healthy weight so why wait?? input you weight and height right away!")
+#print ("Enter your Weight in kg")
+weight = int(input())
+#print ("Enter your height in meters")
+height = float(input())
+
+BMI = weight/float(height*height)
+
+if BMI < 18.5:
+    print ("Underweight")
+
+elif BMI >= 18.5 and BMI < 25:
+    print ("Normal")
+
+elif BMI >= 25 and BMI < 30:
+    print ("Overweight")
+
+elif BMI >= 30:
+    print ("Obesity")
