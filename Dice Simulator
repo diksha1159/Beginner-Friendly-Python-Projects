@@ -1,0 +1,27 @@
+#dice simulator
+import random
+print (" Welcome to Dice Simulator ")
+
+
+def dice_simulator():
+  return(random.randrange(1, 7))
+
+print("shall we start?")
+print("type yes to start and no to wait")
+response = input()
+ 
+if response == "yes":
+      print(dice_simulator())
+else:
+      print("please type 'yes' to begin")
+
+print("would you like to continue?")
+print("Type yes to continue and no to leave")
+
+response1 = input()
+
+if response1 == "yes":
+      print(dice_simulator())
+else:
+      print("Thank You!")
+      
